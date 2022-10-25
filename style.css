@@ -2,8 +2,10 @@
 
 h1{
   border:solid 1px #70000;
+  padding:3px;
 }
 
 p{
   background-color:#070707;
+  padding:3px;
 }
