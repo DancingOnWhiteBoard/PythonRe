@@ -1,11 +1,16 @@
 @charset "utf-8";
 
 h1{
-  border:solid 3px #ff0000;
-  padding:3%;
+  padding:2%;
+  color:red;
+  background-color:yellow;
+  background:linear-gradient(blue 10%,green 90%);
+  text-shadow:5px 10px 2px blue;
+  border-radius:20px;
 }
 
 p{
   background-color:darkgray;
   padding:3%;
+  font-size:120%;
 }
