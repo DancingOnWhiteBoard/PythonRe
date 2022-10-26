@@ -9,6 +9,13 @@ h1{
   border-radius:20px;
 }
 
+h2{
+  border:solid 2px #333333;
+  padding:2%;
+  word-wrap:break-word;
+  border-radius:20px;
+  box-shadow:10px 10px #888888;
+}
 p{
   background-color:darkgray;
   padding:3%;
