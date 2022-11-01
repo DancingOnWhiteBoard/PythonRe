@@ -14,24 +14,18 @@
 </head>
 <body>
     <h1>reのメモ</h1>
-    <p>import re<br>
-       test='w23ieA98MoneyLove' <br>
-       m=re.findall(r'(?=.*[A-Z])(?=.*\d)\w{8,16}',text) <br>
-       #少なくとも1つ以上のアルファベット大文字と数字を含む８から16文字の文字列<br>
-       一致したものが、リストで返される。
-    </p>
-    <h2>バックスラッシュはどうやって表示するんだろうか？円マークになってしまう。困った。</h2>
-    <p>\\バックスラッシュ×2?、それとも円マーク￥全角だけど</P>
-    <h1>Pytohで、11月の英語表記Novを数字に変換</h1>
-    <h2>import datetime<br>
-        p=datetime.datetime.strptime('Nov','%b')<br>
-        print(p.month)<br>
-        #11と出力される。
-    </h2>
-    <p>こんなに簡単なことが、pythonではネットで探すのがとっても大変。<br>
-        よく使うであろう事なのに、不思議。python七不思議と命名しよう。<br>
-        Novenberなら、%Bだ。<br>
-        ちなみに、pはstr<strong>p</strong>timeのpだ。
-    </p>
+        <p>import re<br>
+        test='w23ieA98MoneyLove' <br>
+        m=re.findall(r'(?=.*[A-Z])(?=.*\d)\w{8,16}',text) <br>
+        #少なくとも1つ以上のアルファベット大文字と数字を含む８から16文字の文字列<br>
+        一致したものが、リストで返される。
+        </p>
+        <h2>バックスラッシュはどうやって表示するんだろうか？円マークになってしまう。困った。</h2>
+            <p>\\バックスラッシュ×2?、それとも円マーク￥全角だけど</P>
+    <h1>webブラウザでバックスラッシュを表示する方法は、こうだ！</h1>
+        <p>&#92 or &yen; or ＆yen;</p>
+        <h2>re.match(r'(?=.*[A-Z])(?=.*&#92d)&yen;w{8,16}',text)<br>
+            <p>以上である。</p>
+        </h2>
 </body>
 </html>
