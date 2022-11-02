@@ -34,6 +34,8 @@
             というか、半角英数表示の円記号はどうやって入力するんだ？という問題も発生。<br>
             font-familyでArial 欧文フォントに指定する必要あり。cssのspanで指定。
         </h2>
-            <p><span>#&92;</span></p>
+            <p><span>&#92;そして &yen;</span></p>
+    <h1>最後の改めて</h1>
+        <h2>re.match(r'(?=.*[A-Z])(?=.*<span>&#92;</span>)<span>&#92;</span>{8,16}',text)</h2>
 </body>
 </html>
